@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Lato;
+}
+
+/** COVER PAGE **/
+img{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100%;
+    opacity: 0;
+}
+
+#home h1{
+    font-size: 6em;
+    font-family: Oswald;
+    font-weight: 100;
+    letter-spacing: 0.25em;
+    color: rgb(63,68,80);
+    text-align: center;
+    padding-top: 20%;
+    position: relative;
+}
+
+/** FIRST PANE: FIXED IMAGE**/
+#fixed{
+    height: 20%;
+    width:100%;
+    background: url(img/Team_page/galaxy.jpg) no-repeat center center fixed;
+    display: table;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#fixed h1{
+    font-family: 'Oswald';
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding-top: 3.9%;
+    margin: 0;
+}
+
+/** SECOND PANE: TEAM**/
+#second-pane{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.row{
+    margin-bottom: 5%;
+}
+
+.member img{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius: 50%; 
+}
+
+#executive{
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: rgb(63, 68, 80);
+    margin-top: 10%;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#ceo img{
+    width: 70%;
+}
+
+#chief img{
+    width: 70%;
+}
+
+.member_desc{
+    margin-top: 15%;
+    text-align: center;
+    color: rgb(63, 68, 80);
+}
+
+.member_desc h1{
+    font-size: 2.2em;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
+
+.member_desc h3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+}
+
+.row h2{
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    font-size: 1.5em;
+}
+
+.member_desc hr{
+    width: 50%;   
+}
+
+.member_desc p{
+    font-weight: 300;
+    line-height: 2em;
+    font-size: 1em;
+    letter-spacing: 0.07em;
+    font-family: Nunito;
+}
+
+.bgd{
+    font-family: Nunito;
+    line-height: 1.2em;
+    position: absolute;
+    font-weight: 200;
+    color: transparent;
+    text-align: left;
+    opacity: 1;
+    top: 40%;;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    -webkit-transform: translate(-50%, -25%);
+    -ms-transform: translate(-50%, -25%);
+}
+
+#ceo .bgd, #chief .bgd ,#avionics_lead .bgd, #recovery_lead .bgd{
+    top: 60%;
+}
+
+#ceo_vienna img{
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+}
+
+#chief_vienna img{
+    margin-top: 11.5%;
+}
+
+#bus_lead img{
+    padding-top: 10%;
+    width: 70%;
+}
+
+#safety_lead img{
+    padding-top: 10%;
+    width: 70%;
+}
+
+#chief_vienna .member_desc{
+    margin-top: 17%;
+}
+
+#safety_lead img, #chief_vienna img, #chief img{
+    margin-left: 18%;
+}
+
+#controls-lead img, #aero-lead img{
+    width: 75%;
+    margin-left: 12%;
+}
+
+#avionics_lead h2{
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+}
+
+#recovery_lead h2{
+    transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+}
+
+#subsystem, #advisor{
+    padding-top: 5%;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: rgb(63, 68, 80);
+    margin-top: 10%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#advisor{
+    padding-bottom: 5%;
+}
+
+#prop-subsytem, #recovery_subsystem, #avionics_subsystem, #controls-subsystem, #aerostructures-subsystem, #aerostructures_subsystem, #controls_subsystem, #advisor{
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: rgb(63, 68, 80);
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#recovery_subsystem, #avionics_subsystem{
+    padding-top: 15%;
+    margin-bottom: 0%;
+}
+
+#prop_lead_1 img, #prop_lead_2 img, #prop_lead_3 img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#second, #fourth, #seventh{
+    margin-bottom: 10%;
+}
+
+#advisor2 img{
+    margin-top: 18%;
+    transform: scale(1.2);
+}
+
+#advisor2 .member_desc{
+    margin-top: 21%;
+}

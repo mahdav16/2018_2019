@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/*** COVER PAGE ***/
+img{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#home{
+    background: url(img/Main_Page/txv.png) no-repeat center fixed;
+    background-color: white;
+    opacity: 0;
+	display: table;
+	height: 100%;
+	position: absolute;
+    width: 100%;
+    margin-top: -4%;
+    padding-bottom: -20%;	
+    transform: scale(0.55);
+    -webkit-transform: scale(0.55);
+    -ms-transform: scale(0.55);
+}
+
+.landing-text{
+    display: table-cell;
+	text-align: center;
+    vertical-align: bottom;
+    color: rgb(63,68,80);  
+}
+
+.landing-text h1{
+    font-size: 3.3em;
+    font-family: 'Oswald'; 
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+/** FIRST PANE **/
+#break-pane{
+    height: 100%;
+}
+
+#first-pane{
+    margin-bottom: 10%;
+}
+#first-pane .row{
+    margin-right: 0;
+    width: 120%;
+    margin-bottom: 10%;
+}
+
+#first-pane h1{
+    margin-top: 105%;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Lato'; 
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+}
+
+#first-pane h2{
+    font-family: 'Lato';
+    font-weight: 700;
+    margin-left: -20%;
+    color: rgb(150, 159, 215);
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    width: 200%;
+    margin-top: 5%;
+}
+
+#first-pane p{
+    padding-top: 5%;
+    margin-left: -20%;
+    text-align: left;
+    color: rgb(39, 43, 54);
+    font-size: 0.82em;
+    font-family: Nunito;
+    line-height: 1.5em;
+    width: 120%;
+    margin-bottom: 0%;
+}
+
+#box{
+    margin-left:20%;
+    background-color: rgb(247, 248, 253);
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    padding: 5% 5% 1% 7%;
+}
+
+/** SECOND PANE: FIXED IMAGES**/
+#second-pane{
+    margin-bottom: 10%;
+    width: 100%;
+    align-content: center;
+}
+#second-pane .col-sm-8{
+    margin-left: 15%;
+}
+
+#second-pane .row{
+    margin-left: 15%;
+}
+
+#second-row img{
+    image-rendering: crisp-edges;
+}
+
+#canada{
+    width: 100%;
+    margin-left: -50%;
+}
+
+#austria{
+    width: 55%;  
+    margin-left: -10%;
+    margin-top: -20%;
+}
+
+#second-pane h1{
+    width: 250%;
+    margin-top: 150%;
+    padding-left: 15%;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Lato'; 
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 1.75em;
+    text-align: right;
+}
+
+
+/** THIRD PANE **/
+#third-pane{
+    background-color: rgb(247,248,253);
+    padding-bottom: 6%;
+}
+
+#third-pane h1{
+    font-family: 'Lato';
+    color: rgb(39, 43, 54);
+    font-weight: 700;
+    font-size: 1.75em;
+    letter-spacing: 0.2em;
+    padding-top: 15%;
+    padding-bottom: 7%;
+}
+
+#third-pane h2{
+    font-family: 'Lato';
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+#third-pane hr{
+    width: 100%;
+    margin-left:0%;
+    border: none;
+    height: 2px;
+    color: #333;
+    background-color: #333;
+}
+
+#third-pane p{
+    padding-top: 0%;
+    text-align: left;
+    color: rgb(39, 43, 54);
+    font-size: 0.82em;
+    font-family: Nunito; 
+    line-height: 1.5em;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+#logo img{
+    width: 45%;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+/** FOURTH PANE **/
+#fourth-pane{
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+#fourth-pane h1{
+    color: rgb(165,188,200);
+    font-family: 'Lato';
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    font-size: 2em;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    /**
+	background: linear-gradient(to right,rgb(165,188,200) 0%, rgb(187,165,200) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+}
+
+#fourth-pane p{
+    color: rgb(39, 43, 54);
+    font-family: 'Nunito';
+    font-size: 0.82em;
+    padding-left: 2.5%;
+    line-height: 2em;
+    padding-bottom: 5%;
+}
+
+#fourth-pane h2{
+    font-family: 'Lato';
+    font-size: 1.4em;
+    font-weight: 700;
+    width: 150%;
+    letter-spacing: 0.1em;
+}
+
+.objectives p{
+    width: 150%;
+    line-height: 1.5em;
+    padding-left: 0%;
+    margin-left: -2%;
+}
+
+/*
+.dot{
+    height: 12.5px;
+    width: 12.5px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7.5%;
+}
+*/
+
+#logo{
+    margin-left: 0%;
+    margin-top: -12%;
+}
+
+
+/** FIFTH PANE: TIMELINE */
+#fifth-pane{
+    margin-bottom: 10%;
+}
+#fifth-pane .row{
+    width: 100%;
+    padding: 0%;
+}
+
+#fifth-pane h2{
+    font-family: 'Lato';
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    color: rgb(188, 165, 198);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#fifth-pane h3{
+    margin-top: 25%;
+    font-family: 'Lato';
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    width: 120%;
+    font-weight: 700;
+    padding: 0%;
+}
+
+#fifth-pane h4{
+    font-family: 'Nunito';
+    font-size: 1em;
+    text-align: left;
+}
+
+#fifth-pane .col-sm-2{
+    padding-left: 7.5%;
+}
+
+#fifth-pane .dot{
+    align-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.arrow{
+    opacity: 0;
+    margin-bottom: 2.5%;
+}
+
+.arrow img{
+    width: 50%;
+}
+
+#fifth-pane hr{
+    position: absolute;
+    width: 490%;
+    margin-left:16%;
+    margin-top: -11%;
+    border: none;
+    height: 2.5px;
+    color: rgb(184, 188, 197);
+    background-color: rgb(184, 188, 197);
+}
+
+

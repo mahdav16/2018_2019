@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+/***  NAVIGATION BAR ***/
+.navbar{
+    background: rgba(255, 255, 255, 0.9);
+    height: 2.8rem;
+    font-family: Oswald;
+    padding-top: 2.4vw;
+    padding-bottom: 1.9vw;
+    opacity: 0;
+}
+.nav-link, .navbar-brand{
+    color: black;
+    cursor: pointer;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+.nav-item{
+    margin-left:10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 0.9em;
+}
+.navbar-brand{
+    padding-left: 1.8vw;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 0.17em;
+}
+.current{
+    border: solid 0.1px black;
+    
+}
+.nav-link:hover, .navbar-brand:hover{
+    color: rgb(129,146,179);
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #fff !important;
+}
+
+/** FOOTER **/
+footer{
+    font-family: 'Oswald';
+    background-color: black;
+    padding-bottom: 5%;
+}
+
+footer h1{
+    font-size: 1.85em;
+    padding-top: 5%;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+    color: white;
+}
+
+footer h2{
+    font-size: 1.2em;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-weight: 300;
+    line-height: 2.2em;
+    letter-spacing: 0.4em;
+    color: rgb(162, 184, 226);
+}
+
+footer img{
+    width: 40%;
+}
+
+#fb{
+    margin-left: 4%;
+}
+
+#insta{
+    margin-left: 8%;
+}
+
+#linkedin{
+    margin-left: 8%;
+}
+
+#youtube{
+    margin-left: 8%;
+}
+
+footer img:hover{
+    cursor: pointer;
+}
